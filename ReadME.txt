@@ -1,3 +1,17 @@
+The Objective of the project is as follows:
+
+1. Establish SSL Socket Connection between Server and Client using SSL certificates.
+
+2. Establish Shared Key between Client and Server using Diffie-Hellman Key Exchange Protocol
+
+3. Encrypt the File to be sent from the Server with AES-128 Encryption using the Shared key established with the Diffie-Hellman Key Exchange.
+
+4. The Encrypted file is sent from the server to Client across the SSL connection
+
+5. Once the Encrypted File received at the Client side, the Client decrypts the encrypted file using AES-128 Decryption using the Shared key established with the Diffie-Hellman Key Exchange.
+
+Steps to Run the Project
+
 There are two ways to run the program.
 ----------------------------------------------------------------------------------------------------------------
 Run the Program using Client/Server jar
